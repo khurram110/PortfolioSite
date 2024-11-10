@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Khurram Abbas Rizvi | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .about, .skills, .projects, .experience, .contact {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        .skills-list, .projects-list, .experience-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li, .projects-list li, .experience-list li {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+        }
+        .projects-list li strong {
+            display: block;
+            font-size: 1.2rem;
+            color: #444;
+        }
+        .experience-list li strong {
+            display: block;
+            font-size: 1.2rem;
+            color: #444;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Syed Khurram Abbas Rizvi</h1>
+        <p>Software Engineer | Dynamics 365 & Power Platform Specialist | Azure Integration Expert</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>I am a dedicated Software Engineer specializing in Microsoft Dynamics 365, Power Platform, and Azure. With a strong foundation in CRM customization and data integration, I develop solutions that streamline workflows and enhance operational efficiency. My passion lies in utilizing technology to solve real-world problems, and I take pride in delivering high-quality, sustainable solutions for my clients.</p>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Microsoft Technologies: Dynamics 365 (Customer Engagement, Finance & Operations), Power Platform, Azure</li>
+                <li>Programming Languages: C#, JavaScript, Python, Power FX, M Language, DAX</li>
+                <li>Tools & Libraries: Azure Logic Apps, Azure DevOps, Power BI, SharePoint, Dataverse</li>
+                <li>Data Integration & Automation: Azure Data Factory, Databricks, Synapse Analytics, Power Automate</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <ul class="projects-list">
+                <li>
+                    <strong>Timesheet Canvas App:</strong>
+                    Developed a time-tracking app using Power Automate for invoicing and Power BI for analytics. This app allows users to track work hours and generate invoices automatically, simplifying time management and invoicing processes.
+                </li>
+                <li>
+                    <strong>Azure Logic Apps Integration:</strong>
+                    Created Logic Apps to integrate Dynamics 365 Customer Engagement with third-party applications. The integration improved data synchronization and operational efficiency by automating communication between systems.
+                </li>
+                <li>
+                    <strong>Customer Service Optimization:</strong>
+                    Configured Dynamics 365 CE modules to enhance case management and automated case assignments using Power Automate, which streamlined customer service operations and reduced response times.
+                </li>
+                <li>
+                    <strong>Financial Reporting Automation in Dynamics 365 F&O:</strong>
+                    Implemented automated financial reporting within Dynamics 365 Finance & Operations, integrating Power BI for real-time financial dashboards. This enabled stakeholders to access up-to-date insights and improved decision-making.
+                </li>
+                <li>
+                    <strong>Inventory and Supply Chain Management in Dynamics 365 F&O:</strong>
+                    Customized Dynamics 365 F&O to support inventory management and integrated Azure Logic Apps for data synchronization. Developed Power BI dashboards to monitor key supply chain metrics, enabling better inventory planning.
+                </li>
+            </ul>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2>Experience</h2>
+            <ul class="experience-list">
+                <li>
+                    <strong>Inferifi LLC – Software Engineer-I</strong> (01/2023 – Present)<br>
+                    Developed and customized Dynamics 365 solutions for CRM modules, creating automations and integrations using Azure Logic Apps. Collaborated with cross-functional teams to deliver solutions aligned with business goals.
+                </li>
+                <li>
+                    <strong>CodeClause – AI Intern</strong> (10/2022 – 11/2022)<br>
+                    Built a spam detection system with Python and Scikit-Learn to improve email filtering accuracy. Gained experience in machine learning model development, testing, and optimization.
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <p>Email: <a href="mailto:abbaskhurram134@gmail.com">abbaskhurram134@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/syed-khurram-abbas-rizvi-7294871a9/">LinkedIn Profile</a></p>
+            <p>GitHub: <a href="https://github.com/khurram110">GitHub Profile</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Syed Khurram Abbas Rizvi</p>
+    </footer>
+</body>
+</html>
